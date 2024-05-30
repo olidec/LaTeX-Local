@@ -1,0 +1,36 @@
+\documentclass{scrartcl}
+
+\usepackage{graphicx}
+
+\graphicspath{{images/}}
+
+\usepackage[
+    backend=biber,
+    style=apa,
+    sortlocale=de_DE,
+    natbib=true,
+    url=false,
+    doi=false,
+    sortcites=true,
+    sorting=nyt,
+    isbn=false,
+    hyperref=true,
+    backref=false,
+    giveninits=false,
+    eprint=false]{biblatex}
+\addbibresource{references/bibliography.bib}
+
+
+
+\begin{document}
+\section{Introduction}
+
+some Text with citations \cite{example} and \cite{example}
+
+citing an article from scholar.google.com \cite{reilly2003science}
+
+
+\newpage
+
+\printbibliography
+\end{document}

@@ -8,7 +8,7 @@ winget install -e --id StrawberryPerl.StrawberryPerl
 VSCode Extensions:
 
 - LaTeX Workshop
-- GitGraph
+- Git Graph
 - Code Spell Checker
 - (or: Swiss German - Code Spell Checker)
 - Codeium
